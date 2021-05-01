@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+
+:root {
+    --color0: #6DAEC2;
+    --color1: #F58C71;
+    --color3: #F8A408;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8a408;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+a::before {
+    content: '';
+    background-color: #6DAEC2;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #6DAEC2;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: transform 150ms cubic-bezier(.13,.46,.56,2.34); /*Transição de valores de uma propriedade*/
+}
+
+#button:hover {
+    transform: scale(1.05);
+}
