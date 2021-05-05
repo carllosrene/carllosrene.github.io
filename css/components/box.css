@@ -2,7 +2,7 @@
     --color4: #3A4042;
 }
 
-#box {
+.box {
     display: inline-block;
     background-color: var(--color4);
     box-shadow: 10px 10px 0 #000;
@@ -10,6 +10,6 @@
     padding: 42px 44px;
 }
 
-#box h1 {
+.box .title {
     margin-bottom: 28px;
 }
