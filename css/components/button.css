@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    background-color: var(--color0);
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000;
+    margin-right: 0;
+    transition: transform 150ms cubic-bezier(.13,.46,.56,2.34); /*Transição de valores de uma propriedade*/
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
