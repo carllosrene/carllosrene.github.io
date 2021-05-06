@@ -24,3 +24,7 @@
     display: flex;
     justify-content: space-around;
 }
+
+.navigation .contact_banner {
+    padding: 18px 38px;
+}
