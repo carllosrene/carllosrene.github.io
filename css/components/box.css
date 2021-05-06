@@ -1,10 +1,6 @@
-:root {
-    --color4: #3A4042;
-}
-
 .box {
     display: inline-block;
-    background-color: var(--color4);
+    background-color: var(--color3);
     box-shadow: 10px 10px 0 #000;
     text-align: center;
     padding: 42px 44px;
