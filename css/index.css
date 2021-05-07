@@ -8,3 +8,7 @@
     --color2: #F8A408;
     --color3: #3A4042;
 }
+
+body {
+    background-color: var(--color3);
+}
