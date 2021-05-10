@@ -5,3 +5,9 @@
     color: var(--color0);
     text-shadow: 4px 4px 0 #000;
 }
+
+.skills .title {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
