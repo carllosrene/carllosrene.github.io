@@ -5,10 +5,10 @@
 
 :root {
     --color0: #6DAEC2;
-    --color2: #F8A408;
-    --color3: #3A4042;
+    --color1: #F8A408;
+    --color2: #3A4042;
 }
 
 body {
-    background-color: var(--color3);
+    background-color: var(--color2);
 }
