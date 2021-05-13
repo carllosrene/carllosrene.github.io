@@ -1,4 +1,4 @@
-.section {
+.main-section {
     max-width: 1280px;
     margin: 0 auto;
     background-color: var(--color0);
@@ -7,14 +7,14 @@
     border-bottom: 10px solid var(--color1);
 }
 
-.section .main-title {
+.main-section .main-title {
     margin-bottom: 60px;
 }
 
-.section.-bgBlack {
+.main-section.-bgBlack {
     background-color: #000;
 }
 
-.section.-borderColor {
+.main-section.-borderColor {
     border-bottom: 10px solid var(--color0);
 }
