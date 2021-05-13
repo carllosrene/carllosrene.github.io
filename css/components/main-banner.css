@@ -16,7 +16,7 @@
     max-width: 640px;
 }
 
-.main-banner .box {
+.main-banner .main-box {
     margin-bottom: 40px;
 }
 
@@ -25,6 +25,6 @@
     justify-content: space-around;
 }
 
-.main-banner .contact_banner {
+.main-banner .contact-banner {
     padding: 18px 38px;
 }
