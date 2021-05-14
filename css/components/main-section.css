@@ -15,6 +15,14 @@
     background-color: #000;
 }
 
-.main-section.-borderColor {
+.main-section.-borderColor0 {
     border-bottom: 10px solid var(--color0);
+}
+
+.main-section.-bgColor1 {
+    background-color: var(--color1);
+}
+
+.main-section.-borderBlack {
+    border-bottom: 10px solid #000;
 }
