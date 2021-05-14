@@ -1,0 +1,9 @@
+.main-carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-carousel .button-arrow {
+    transform: translateY(75%);
+}
