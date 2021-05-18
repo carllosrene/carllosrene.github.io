@@ -1,6 +1,14 @@
 .main-form {
     max-width: 1280px;
     margin: 0 auto;
-
+    padding: 50px 40px;
     background-color: var(--color2);
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-textarea {
+    margin-bottom: 40px;
 }
