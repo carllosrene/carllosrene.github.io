@@ -17,3 +17,7 @@
 .main-button.contact-banner {
     padding: 18px 38px;
 }
+
+.main-button.-full {
+    width: 100%;
+}
