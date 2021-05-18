@@ -1,0 +1,20 @@
+.main-footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    background-color: #000;
+}
+
+.main-footer .network {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer .github,
+.twitter,
+.linkedin {
+    width: 45px;
+    height: 45px;
+    margin-right: 40px;
+}
